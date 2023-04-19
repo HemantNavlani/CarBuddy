@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+    <title>Electronics</title>
+    
+  </head>
+<style>
+  *{
+    background-color: #F0F4F5;
+  }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+  padding: 40px;
+  font-weight: 400;
+}
+
+.buy{
+  background: none;
+  text-decoration: none;
+  color: black;
+}
+.logo{
+    margin-left: 50px;
+    height:150px;
+    width:200px;
+    padding: 0;
+    margin-top: -80px;
+}
+.row {margin: 10 10px;
+height: 10px;
+width: 100%;}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: right;
+  width: 38%;
+  padding: 10px 10px;
+}
+
+.card {
+float:left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 50px;
+  text-align: center;
+  font-family: arial;
+
+ 
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  background-color: #22BC7E;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  
+  background-color: #F0F4F5;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #F0F4F5;
+  color: black;
+}
+
+.navbar a {
+  float: right;
+  font-size: 17px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 19px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:#22BC7E;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F0F4F5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #F0F4F5;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+<body>
+<header>
+  <nav>
+<div class="navbar">
+  <img class="logo" src="./car Logo .png" alt="">
+  <!-- <a href="/Users/hemantnavlani/Desktop/11 Feb Project 3 Multi Page/divyansh 3/p/signInPage.html">Sign In </a> -->
+  <a href="/about">About us</a>
+  
+  <a href="/contact">Contact us</a>
+
+  <!-- <a href="/Users/hemantnavlani/Desktop/11 Feb Project 3 Multi Page/divyansh 3/p/cartPage.html">Cart</a> -->
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Products
+      <!-- <i class="fa fa-caret-down"></i> -->
+    </button>
+    <div class="dropdown-content">
+      <a href="/interior">Interior</a>
+      <a href="/exterior">Exterior</a>
+      <a href="/electronics">Electronic Accessories</a>
+    </div>
+  </div> 
+  
+  <a href="/">Home</a>
+  
+</div>
+  </nav>
+</header>
+<section>
+  <h1 style="font-style: normal; text-align: center; background-color: #22BC7E;">Electronic Accessories</h1>
+  <div>
+    <div class="row">
+      <div class="column">
+      <div class="card">
+        <img src="stereo.jpg" alt="stereo" style="width:100%">
+        <h1>Smart Audio System</h1>
+        <p class="price">Rs.9,999</p>
+        <p></p>
+        <p><button>
+          <a class="buy" href="/buynow15">Buy Now</a>
+        </button></p>
+      </div>
+      </div>
+      <div class="column">
+      <div class="card">
+        <img src="streo2.jpeg" alt="Denim Jeans" style="width:100%">
+        <h1>Audio System</h1>
+        <p class="price">Rs.8,999</p>
+        <p><button>
+          <a class="buy" href="/buynow16">Buy Now</a>
+        </button></p>
+        </div >
+        
+         
+
+      </div>
+      <div class="row">
+        <div class="column">
+        <div class="card">
+          <img src="pcam.jpg" alt="cam" style="width: 260px; height: 160px; ;" >
+          <h1>Parking Sensor and Camera</h1>
+          <p class="price">Rs.6,999</p>
+          <p></p>
+          <p><button>
+            <a class="buy" href="/buynow17">Buy Now</a>
+          </button></p>
+        </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <img src="chargercar.jpg" alt="chargercar" style="width:100%">
+            <h1>Wireless Car Charger</h1>
+            <p class="price">Rs.2,999</p>
+            <p></p>
+            <p><button>
+              <a class="buy" href="/buynow18">Buy Now</a>
+            </button></p>
+          </div>
+          </div>
+          </div>
+          <div class="row">
+            
+            
+
+      </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="speakers.jpg" alt="chargercar" style="width: 300px; height: 160px; ">
+            <h1> Car Speakers</h1>
+            <p class="price">Rs.12,999</p>
+            <p></p>
+            <p><button>
+              <a class="buy" href="/buynow19">Buy Now</a>
+            </button></p>
+          </div>
+          </div>
+          
+</section>
+
+
+
+
+</body>
+</html>

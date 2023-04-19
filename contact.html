@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./stylec.css">  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&amp;family=Poppins:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <title>Contact</title>
+
+    <style>
+        *{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: #F0F4F5;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.logo{
+    margin-left: -50px;
+    height:150px;
+    width:250px;
+    padding: 0;
+    margin-top: -50px;
+}
+main ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+form{
+    height: 550px;
+    width: 350px;
+    padding: 20px;
+    margin-left: 580px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+}
+h1{
+text-align: center;
+}
+h4{
+    margin-top: 20px;
+}
+input{
+    margin-top: 20px;
+    background-color: white;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+textarea{
+    margin-top: 20px;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.button{
+    background-color: #22bc7e;
+    height: 40px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><img class="logo" href="/Users/hemantnavlani/Desktop/11 Feb Project 3 Multi Page/index.html" src="./car Logo .png" alt=""></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="about" >About Us</a></li>
+            <li><a href="contact" >Contact Us</a></li>
+            <!-- <li><a href="/Users/hemantnavlani/Desktop/11 Feb Project 3 Multi Page/index.html">Home</a></li>
+            <li><a href="/Users/hemantnavlani/Desktop/11 Feb Project 3 Multi Page/about/about.html" >About Us</a></li>
+            <li><a href="/Users/hemantnavlani/Desktop/11 Feb Project 3 Multi Page/contact/contact.html">Contact Us</a></li> -->
+            <!-- <li><a class="abc" href="/Users/hemantnavlani/Desktop/11 Feb Project 3 Multi Page/divyansh 3/p/signInPage.html">Sign In</a></li> -->
+        </ul>
+    </nav>
+
+    <form method="post" name="form1">
+        <h1>Contact Form</h1>
+        <h4>Name</h4>
+        <input name="name" type="text" placeholder="Enter your name" required>
+        <h4>Email</h4>
+        <input name="email" type="email"placeholder="Enter your email" required>
+        <h4>Message</h4>
+            <textarea name="message" placeholder="Enter your message"></textarea>
+        <!-- <button>Submit</button> -->
+        
+        <input type="submit" value="Submit" class="button">
+        <input type="reset" value="Reset" class="button">
+    </form>
+</body>
+</html>

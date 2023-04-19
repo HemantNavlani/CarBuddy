@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./buycss.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&amp;family=Poppins:wght@200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+    <title>Buy Page</title>
+
+    <style>
+      
+*{
+   border: 0;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   background-color: #F0F4F5;
+   font-family: "IBM Plex Sans", sans-serif;
+}
+nav ul{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 20px;
+}
+
+.logo{
+   margin-left: -50px;
+   height:150px;
+   width:250px;
+   padding: 0;
+   margin-top: -50px;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+   font-weight: 800;
+}
+
+input{
+   margin-top: 20px;
+   background-color: white;
+   width: 300px;
+   height: 30px;
+   padding: 10px;
+   border-radius: 20px;
+}
+
+header {
+       max-width:  100vw;
+       min-height: 100vh;
+       background-color: #F0F4F5;
+       box-sizing: border-box;
+       font-size: 1.2rem;
+       border-radius: 20px;
+       font-family: "IBM Plex Sans" sans-serif;
+       display: flex;
+       justify-content: center;
+       align-items: center ;
+    }
+ .container{
+    background: #f0f4f5;
+    max-width:  700px;
+    min-height: 480px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start ;
+    padding: 0.5rem 1.5rem;
+ }
+ form{
+    padding: 1rem;
+ }
+ h5{
+    margin-top: 20px;
+    color: black;   }
+ form input[type="text"]{
+    width:100%;
+    padding: 0.5rem 0.7rem;
+    margin: 0.5rem 0;
+    outline: none;
+ }
+ #state{
+    padding: 0.5rem 0.7rem;
+    display: flex;
+    margin-top: 0.5rem;
+    background-color: white;
+    border-radius: 20px;
+ }
+.submit{
+      height: 40px;
+      width: 130px;
+      background-color:  #22bc7e;
+      border: none;
+      border-radius: 20px;
+      font-weight: 800;
+      font-size: 15px;
+      color: white;
+}
+h1{
+   text-align: center;
+   }
+/* .reset{
+   height: 40px;
+   width: 100px;
+   background-color:  #22bc7e;
+   border: none;
+   border-radius: 20px;
+   font-weight: 800;
+   font-size: 15px;
+   color: white;
+} */
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
+
+<nav>
+  <ul>
+      <li><img class="logo" href="/Users/hemantnavlani/Desktop/11 Feb Project 3 Multi Page/index.html" src="./car Logo .png" alt=""></li>
+      <li><a href="/" target="_blank">Home</a></li>
+      <li><a href="/about" target="_blank">About Us</a></li>
+      <li><a href="/contact" target="_blank">Contact Us</a></li>
+  </ul>
+</nav>
+
+    <header>
+        <div class="container">
+               
+              <div>
+                <h1>Address details</h1>
+                <form method="post">
+                    Name*
+                     <input type="text" name="myname" placeholder="Enter name" required>
+                    Email* 
+                     <input type="email" name="myemail" placeholder="Enter email" required>
+                     <br>
+                     <br>
+                    Phone number*
+                    <input type="text" name="mynumber" placeholder="Enter number" required>
+                       Flatno./ houseno 
+                       <input type="text" name="myflt" placeholder="Enter flat no / house no">
+                     State*
+                      <select name="state" id="state" >
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                        <option value="Daman and Diu">Daman and Diu</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Lakshadweep">Lakshadweep</option>
+                        <option value="Puducherry">Puducherry</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+                       </select>
+                     Address*
+                      <input type="text" name="address" class="myaddrss" placeholder=" Street/Locality/Landmark" required>
+                     Pincode*
+                      <input type="text" name="pin" class="mypincode" placeholder="Pincode" required>                        <a href="/Users/hemantnavlani/Desktop/11 Feb Project 3 Multi Page/orderplaced.html">
+                        <input type="submit" class="submit" value="Submit Now" >
+
+                        <!-- <input type="reset"  class="reset" value="Reset"> -->
+                    
+        </form>
+        </div>
+        </div> 
+    </header>
+</body>
+</html>
+
